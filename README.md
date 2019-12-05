@@ -29,6 +29,17 @@ Below is resource utilization summary for RSA in FPGA:
 
 #### Implementation of RSA in Qiskit
 
+Qiskit is an open source SDK (Software Development Kit) created by IBM, which allows us to access real Quantum computer via cloud. Before starting to code for Quantum computers, an account needs to be created with IBM Q experience to interact with Quantum simulator. This generates a token, which provides access to IBM's Quantum computer. Programs can be written in Python in Jupyter Notebook to work with IBM's Quantum computer.
+
+After installing Qiskit using `pip install` command, first step to start coding in the IBM's Quantum computer is to enable your account with the token provided in the IBM Q experience. This can be done by the following lines of code in Jupyter notebook.
+
+```python
+from qiskit import IBMQ
+provider = IBMQ.enable_account('<your -token >')
+qasm_sim = provider.get_backend('ibmq_qasm_simulator')
+```
+
+This project uses Quantum Fourier Transform (QFT) adder to perform fast addition and it serves as a base component for multiplication and exponentiation operations.
 
 ### Author
 
