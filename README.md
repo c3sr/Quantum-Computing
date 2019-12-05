@@ -35,7 +35,7 @@ After installing Qiskit using `pip install` command, first step to start coding 
 
 ```python
 from qiskit import IBMQ
-provider = IBMQ.enable_account('<your -token >')
+provider = IBMQ.enable_account('<your-token>')
 qasm_sim = provider.get_backend('ibmq_qasm_simulator')
 ```
 
