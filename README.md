@@ -41,6 +41,14 @@ qasm_sim = provider.get_backend('ibmq_qasm_simulator')
 
 This project uses Quantum Fourier Transform (QFT) adder to perform fast addition and it serves as a base component for multiplication and exponentiation operations.
 
+Quantum circuit of QFT adder is shown below:
+
+![image](https://user-images.githubusercontent.com/54873229/70283235-58ffe800-1775-11ea-88e7-1fea953602f5.png)
+
+![image](https://user-images.githubusercontent.com/54873229/70283259-64ebaa00-1775-11ea-9c77-be2e50ae34da.png)
+
+![image](https://user-images.githubusercontent.com/54873229/70283293-77fe7a00-1775-11ea-8b53-61366c5454e9.png)
+
 ### Author
 
 Lavanya Gnanasekaran, Graduate student, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
