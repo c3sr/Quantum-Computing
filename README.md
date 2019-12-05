@@ -1,7 +1,7 @@
 
 ### Team Members
 
-1. Lavanya Gnanasekaran, Graduate student, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+Lavanya Gnanasekaran, Graduate student, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
 ### Supervising Professor: 
 
