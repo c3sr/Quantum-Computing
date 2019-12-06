@@ -26,6 +26,18 @@ Below is resource utilization summary for RSA in FPGA:
 
 ![image](https://user-images.githubusercontent.com/54873229/70282676-66b46e00-1773-11ea-9dbd-d5f3d64c1b7b.png)
 
+#### Installing Qiskit
+
+Python needs to be installed to program using Qiskit. IBM recommends installing Anaconda, which is a cross platform Python distribution for scientific computing. Jupyter Notebooks included with Anaconda is recommended platform to programming Qiskit.
+
+Here are steps in installing Qiskit on Windows.
+
+1. Install Anaconda
+2. Open Anaconda Prompt
+3. Create a environment with specific version of Python: `conda create -n name_of_my_env python=3`
+4. Activate your environment: `activate name_of_my_env`
+5. Install Qiskit: `pip install qiskit`
+
 
 #### Implementation of RSA in Qiskit
 
@@ -48,6 +60,24 @@ Quantum circuit of QFT adder is shown below:
 ![image](https://user-images.githubusercontent.com/54873229/70283259-64ebaa00-1775-11ea-9c77-be2e50ae34da.png)
 
 ![image](https://user-images.githubusercontent.com/54873229/70283293-77fe7a00-1775-11ea-8b53-61366c5454e9.png)
+
+#### Building this project
+
+This project contains source code for RSA algorithm implemented in VHDL and Qiskit. Here are steps in building this project.
+
+1. Install Qiskit following the above steps
+2. Clone this repository
+3. Open `src/rsa/qiskit` folder in Jupyter, which is included with Qiskit
+4. Before compiling and building the source code, an IBM Q account needs to be created and a `token` needs to be generated to access IBM's Quantum Simulators via Qiskit. See instructions [here](https://qiskit.org/documentation/install.html#access-ibm-q-systems) to generate a `token`.
+5. Provide the obtained `token` into the source code to build necessary functions.
+
+```python
+from qiskit import IBMQ
+provider = IBMQ.enable_account('<your-token>')
+```
+
+Re-usable Python functions are written as Python files and these functions are used in Jupyter Notebook files. You can run individual Notebook which will use necessary functions needed to produce the result.
+
 
 ### Team Member:
 
