@@ -49,19 +49,12 @@ Quantum circuit of QFT adder is shown below:
 
 ![image](https://user-images.githubusercontent.com/54873229/70283293-77fe7a00-1775-11ea-8b53-61366c5454e9.png)
 
-### Author
+### Team Member:
 
 Lavanya Gnanasekaran, Graduate student, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
 ### Supervising Professor: 
-
 Dr. Mohamed El-Hadedy, Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
-
-### Committee Members:
-
-Dr. Halima El Naga, Department Chair, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
-
-Dr. Anas Salah Eddin, Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
 ### Project Structure:
 
