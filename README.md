@@ -57,8 +57,7 @@ Lavanya Gnanasekaran, Graduate student, Electrical and Computer Engineering depa
 Dr. Mohamed El-Hadedy, Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
 ### Project Structure:
-
-I have implemented RSA in Qiskit and FGPA using VHDL. Qiskit is programmable through Jupyter Notebook using Python programming language. Jupyter Notebooks and re-usable Python functions are available inside `qiskit` folder. VHDL code responsible for running RSA algorithm in FPGA is available inside `vhdl` folder.
+RSA has been implemented in Qiskit Quantum Computing tool and FPGA using VHDL. Qiskit is programmable through Jupyter Notebook using Python programming language. Jupyter Notebooks and re-usable Python functions are available inside `qiskit` folder. VHDL code responsible for running RSA algorithm in FPGA is available inside `vhdl` folder.
 
 ### Project Sponsors:
 
